@@ -80,6 +80,13 @@ export default function Impact() {
             </p>
           </div>
         </div>
+        <div className="text-center mt-8">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScHTymVDX5z7hsee05sWcpe1UrU0z5jM5sVwbAuBSFSj28T6A/viewform?usp=header">
+            <button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-colors duration-300">
+              Dar um FeedBack
+            </button>
+          </a>
+        </div>
       </div>
     </section>
   );
