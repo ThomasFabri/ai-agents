@@ -45,25 +45,20 @@ export default function Applications() {
       title: 'Análise de dados e tomada de decisão',
       description: 'Insights inteligentes para decisões estratégicas baseadas em dados',
     },
-    {
-      icon: GraduationCap,
-      title: 'Aplicações educacionais e de atendimento',
-      description: 'Tutores virtuais e sistemas de suporte personalizado',
-    },
   ];
 
   return (
     <section
       ref={sectionRef}
-      className="py-24 px-6 bg-white"
+      className="py-24 px-6 bg-transparent"
     >
       <div className="max-w-6xl mx-auto">
         {/* Título */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        <div className="text-center mb-16 text-shadow-black text-shadow-md">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Onde são utilizados?
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-white max-w-3xl mx-auto">
             Os agentes de IA estão presentes em diversos setores, transformando a forma como 
             empresas e pessoas interagem com a tecnologia.
           </p>
@@ -82,9 +77,9 @@ export default function Applications() {
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               <div className="flex gap-4">
-                <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-blue-100 group-hover:bg-blue-600 rounded-xl flex items-center justify-center transition-colors duration-300">
-                    <app.icon className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors duration-300" />
+                <div className="shrink-0">
+                  <div className="w-12 h-12 bg-blue-100 group-hover:bg-blue-800 rounded-xl flex items-center justify-center transition-colors duration-300">
+                    <app.icon className="w-6 h-6 text-blue-800 group-hover:text-white transition-colors duration-300" />
                   </div>
                 </div>
                 <div>

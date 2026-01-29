@@ -45,15 +45,15 @@ export default function HowItWorks() {
   return (
     <section
       ref={sectionRef}
-      className="py-24 px-6 bg-gray-50"
+      className="py-24 px-6 bg-transparent"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto ">
         {/* Título */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        <div className="text-center mb-16 text-shadow-black text-shadow-md">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Como funcionam?
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-white max-w-3xl mx-auto">
             Um agente de IA analisa informações do ambiente, processa esses dados por meio de 
             algoritmos e escolhe a melhor ação possível. Esse ciclo pode acontecer continuamente, 
             permitindo aprendizado e adaptação ao longo do tempo.
@@ -74,7 +74,7 @@ export default function HowItWorks() {
             >
               <div className="flex flex-col items-center text-center space-y-4">
                 <div className="w-16 h-16 bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center">
-                  <step.icon className="w-8 h-8 text-blue-600" />
+                  <step.icon className="w-8 h-8 text-blue-800" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900">{step.title}</h3>
                 <p className="text-gray-600 leading-relaxed">{step.description}</p>
