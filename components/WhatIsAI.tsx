@@ -43,7 +43,7 @@ export default function WhatIsAI() {
         threshold={0.1}
         delay={0}
       >
-        <div className={`max-w-4xl mx-auto transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+        <div className={`max-w-3xl mx-auto transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           {/* Ícone e Título */}
 
           <div className="text-center mb-12">
@@ -58,7 +58,7 @@ export default function WhatIsAI() {
           </div>
 
           {/* Conteúdo */}
-          <div className="prose prose-lg max-w-200 border-white border bg-white/30 hover:bg-white/10 transition duration-300 backdrop-blur-md p-6 rounded-xl shadow-lg shadow-black text-center justify-self-center">
+          <div className="max-w-3xl border-white border bg-white/30 hover:bg-white/10 transition duration-300 backdrop-blur-md p-6 rounded-xl shadow-lg shadow-black text-center justify-self-center">
             <p className="text-xl text-white leading-relaxed">
               Agentes de Inteligência Artificial são sistemas capazes de{' '}
               <span className="font-semibold text-blue-300">perceber o ambiente</span>,{' '}
