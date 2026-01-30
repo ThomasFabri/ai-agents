@@ -58,15 +58,15 @@ export default function WhatIsAI() {
           </div>
 
           {/* Conteúdo */}
-          <div className="prose prose-lg max-w-none">
-            <p className="text-xl text-white leading-relaxed text-shadow-black text-shadow-md">
+          <div className="prose prose-lg max-w-200 border-white border bg-white/30 hover:bg-white/10 transition duration-300 backdrop-blur-md p-6 rounded-xl shadow-lg shadow-black text-center justify-self-center">
+            <p className="text-xl text-white leading-relaxed">
               Agentes de Inteligência Artificial são sistemas capazes de{' '}
-              <span className="font-semibold text-blue-600">perceber o ambiente</span>,{' '}
-              <span className="font-semibold text-[#ffaa17]">tomar decisões</span> e{' '}
-              <span className="font-semibold text-blue-600">executar ações</span> de forma
+              <span className="font-semibold text-blue-300">perceber o ambiente</span>,{' '}
+              <span className="font-semibold text-[#fdc668]">tomar decisões</span> e{' '}
+              <span className="font-semibold text-blue-300">executar ações</span> de forma
               autônoma ou semi-autônoma.
             </p>
-            <p className="text-xl text-white leading-relaxed mt-6 text-shadow-black text-shadow-md">
+            <p className="text-xl text-white leading-relaxed mt-6">
               Eles utilizam dados, regras e modelos de aprendizado para agir com base em objetivos definidos.
             </p>
           </div>

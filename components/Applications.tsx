@@ -69,22 +69,22 @@ export default function Applications() {
           {applications.map((app, index) => (
             <div
               key={index}
-              className={`group bg-gray-50 hover:bg-white rounded-2xl p-6 transition-all duration-500 border border-gray-100 hover:border-blue-200 hover:shadow-lg ${
+              className={`group bg-white/30 backdrop-blur-md hover:bg-white/10 rounded-2xl p-6 transition-all duration-300 border border-gray-100 hover:border-blue-200 hover:shadow-lg ${
                 isVisible 
                   ? 'opacity-100 translate-x-0' 
                   : 'opacity-0 -translate-x-10'
               }`}
-              style={{ transitionDelay: `${index * 100}ms` }}
+              style={{ transitionDelay: `${index * 50}ms` }}
             >
               <div className="flex gap-4">
                 <div className="shrink-0">
-                  <div className="w-12 h-12 bg-blue-100 group-hover:bg-blue-800 rounded-xl flex items-center justify-center transition-colors duration-300">
-                    <app.icon className="w-6 h-6 text-blue-800 group-hover:text-white transition-colors duration-300" />
+                  <div className="w-12 h-12 bg-blue-100 group-hover:bg-blue-800 rounded-xl flex items-center justify-center transition-colors duration-500">
+                    <app.icon className="w-6 h-6 text-blue-800 group-hover:text-white transition-colors duration-500" />
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2">{app.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{app.description}</p>
+                  <h3 className="text-lg font-bold text-gray-300 mb-2">{app.title}</h3>
+                  <p className="text-white leading-relaxed">{app.description}</p>
                 </div>
               </div>
             </div>
