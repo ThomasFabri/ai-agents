@@ -1,7 +1,6 @@
 'use client';
 
 import { ArrowRight } from 'lucide-react';
-import ElectricBorder from '@/components/ElectricBorder';
 
 export default function Hero() {
   const scrollToSection = () => {
