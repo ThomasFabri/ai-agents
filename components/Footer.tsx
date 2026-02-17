@@ -13,7 +13,13 @@ export default function Footer() {
           <h1 className="text-xs font-bold text-white">
               Em colaboração com:
             </h1>
-          <img src="https://agenciarei.com/wp-content/uploads/2023/07/rei-logo-rodape.svg" alt="Logo" className='mb-8 w-50 h-auto' />
+          <img
+            src="https://agenciarei.com/wp-content/uploads/2023/07/rei-logo-rodape.svg"
+            alt="Logo"
+            width={200}
+            height={54}
+            className="mb-8 w-50 h-auto"
+          />
           <div>
             <p className="text-gray-200">Conteúdo educacional e acessível</p>
           </div>
